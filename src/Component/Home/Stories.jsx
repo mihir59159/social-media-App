@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { AuthContex } from '../../utils/AuthContext'
+import { AuthContex } from '../../utils/AuthContex'
 import Story from './Story';
 
 const Stories = () => {

@@ -6,7 +6,7 @@ import { LiaCommentDots } from 'react-icons/lia'
 import { Link } from 'react-router-dom'
 import Comment from './Comment'
 import { FcLike } from 'react-icons/fc'
-import { AuthContex } from '../../utils/AuthContext'
+import { AuthContex } from '../../utils/AuthContex'
 
 const Post = ({ data }) => {
     const { curruser } = useContext(AuthContex);

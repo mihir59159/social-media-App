@@ -8,7 +8,7 @@ import { IoNotificationsOutline } from 'react-icons/io5'
 import { LuMoon } from 'react-icons/lu'
 import { PiEnvelopeOpen } from 'react-icons/pi'
 import { Link } from 'react-router-dom'
-import { AuthContex } from '../../utils/AuthContext'
+import { AuthContex } from '../../utils/AuthContex'
 
 const NavBar = () => {
 

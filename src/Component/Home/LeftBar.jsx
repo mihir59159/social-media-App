@@ -11,7 +11,7 @@ import picture9 from '../../assets/9.png'
 import picture10 from '../../assets/10.png'
 import picture11 from '../../assets/11.png'
 import picture12 from '../../assets/12.png'
-import { AuthContex } from '../../utils/AuthContext'
+import { AuthContex } from '../../utils/AuthContex'
 // import picture13 from '../../assets/13.png'
 
 

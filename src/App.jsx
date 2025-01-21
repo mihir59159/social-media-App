@@ -7,7 +7,7 @@ import LeftBar from './Component/Home/LeftBar'
 import NavBar from './Component/Home/NavBar'
 import RightBar from './Component/Home/RightBar'
 import Profile from './Component/Home/Profile'
-import { AuthContex } from './utils/AuthContext';
+import { AuthContex } from './utils/AuthContex';
 
 const App = () => {
 

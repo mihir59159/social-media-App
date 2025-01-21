@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router-dom'
 import { useForm } from "react-hook-form";
-import { AuthContex } from '../../utils/AuthContext';
+import { AuthContex } from '../../utils/AuthContex';
 
 const Login = () => {
 

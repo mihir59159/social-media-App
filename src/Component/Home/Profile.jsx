@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { AuthContex } from '../../utils/AuthContext'
+import { AuthContex } from '../../utils/AuthContex'
 import { LiaFacebook } from 'react-icons/lia';
 import { TbBrandInstagram } from 'react-icons/tb';
 import { RiTwitterXFill } from 'react-icons/ri';
