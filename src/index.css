@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.icon{
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+* { 
+
+    /* color: white;
+    background-color: black; */
+
+    &::-webkit-scrollbar {
+      width: 2px; /* Width of the scrollbar */
+      height: 2px; /* Height of the scrollbar for horizontal scrolling */
+    }
+  
+    &::-webkit-scrollbar-track {
+      background-color: var(--primary-color); /* Background of the scrollbar track */
+      border-radius: 10px; /* Rounded corners for the track */
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--border-color); /* Color of the scrollbar thumb */
+      border-radius: 10px; /* Rounded corners for the thumb */
+      cursor: pointer;
+    }
+  
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: var(--text-color-sec); /* Darker color on hover for better visibility */
+    }
+  }
+  
+
+&::-webkit-scrollbar{
+    display: none;
+}
+
+.outline-debug {
+    outline: 1px solid red;
+  }
+
+
+.light-theme{
+  --primary-color: white;
+  --secondary-color: #f7fbfe;
+  --text-color-prim: black;
+  --text-color-sec: gray;
+  --border-color: lightgray;
+  --theme:"light";
+}
+
+.dark-theme{
+  --primary-color: rgb(39, 38, 38);
+  --secondary-color: #303030;
+  --text-color-prim: white;
+  --text-color-sec: rgb(182, 181, 181);
+  --border-color: rgb(66, 65, 65);
+  --theme:"dark";
+}
